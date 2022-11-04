@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bascketball Scoreoard</title>
+</head>
+<body>
+  <div class="container">
+    <div class="headline">
+      <h1>Wildcats</h1>
+      <h2 id="home-score">0</h2>
+      <div class="add-score">
+        <button type="button" onclick="addOne()" class="adding" id="add-home-one">+1</button>
+        <button type="button" onclick="addTwo()" class="adding" id="add-home-two">+2</button>
+        <button type="button" onclick="addThree()" class="adding" id="add-home-three">+3</button>
+      </div>
+    </div>
+    <div class="headline">
+      <h1>WARRIORS</h1>
+      <h2 id="guest-score">0</h2>
+      <div class="add-score">
+        <button type="button" onclick="addOneGuest()" class="adding" id="add-guest-one">+1</button>
+        <button type="button" onclick="addTwoGuest()" class="adding" id="add-guest-two">+2</button>
+        <button type="button" onclick="addThreeGuest()" class="adding" id="add-guest-three">+3</button>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

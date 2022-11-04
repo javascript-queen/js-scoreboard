@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url("fonts/CursedTimerULiL.eot") format("eot");
+  src:
+      url("fonts/CursedTimerULiL.woff") format("woff"),
+      url("fonts/CursedTimerULiL.ttf") format("truetype"),
+      url("fonts/CursedTimerULiL.svg") format("svg");
+}
+
+@font-face {
+  font-family: "Universidad";
+  src: url("fonts/Universidad.ttf");
+  font-size: 150px;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Universidad';
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 300px auto;
+  background-color: #f02d51;
+  border-radius: 6px;
+  width: 600px;
+}
+
+#home-score, #guest-score {
+  font-family: 'Cursed Timer ULiL';
+  font-size: 50px;
+  color: #EEEEEE;
+  background-color: #1B244A;
+  padding: 20px 40px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.add-score {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.adding {
+  font-family: 'Cursed Timer ULiL';
+  color: #EEEEEE;
+  font-size: 15px;
+  background-color: transparent;
+  border: 3px solid #EEEEEE;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.adding:hover {
+  color: #fff;
+  box-shadow: 0 5px #EEEEEE;
+  transform: translateY(4px);
+}
